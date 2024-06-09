@@ -1,0 +1,98 @@
+body, html {
+    height: 100%;
+    width:100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+}
+
+.header{
+    display:flex;
+    height:10vh;
+    justify-content:flex-start;
+    align-items: center; 
+    background-color: #2f3d46; 
+}
+
+
+span img{
+ height: 50px;
+ background-color: white;
+ margin-left:10px;
+ border-radius:40px;
+}
+.spacer {
+flex-grow: 1;
+} 
+span strong{
+font-size: 20px;
+color: white;
+letter-spacing:4px;
+justify-self: center;
+}
+.maincontent{
+    display:flex;
+    height: 90vh;
+    background-color:#CAD2C5 ;
+}
+.maincontent-left{
+    width: 30%;
+}
+.box-left
+{
+    height:70vh;
+    width:80%;
+    background-color:#353535 ;
+    border-radius: 20px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left:10%;
+    margin-right:10%;
+
+}
+.maincontent-right{
+    width: 70%;    
+}
+.search-box{
+    height:5vh;
+    width:60%;
+    background-color:#353535 ;
+    border-radius: 7px;
+    color:antiquewhite;
+    margin-top: 10vh;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom:10vh ;
+    font-size: 20px;
+    letter-spacing:2px;
+    padding-top:12px ;
+    padding-left:10px;
+}
+
+.middle-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.middle-box{
+    width: 20% ;
+    height: 15vh;
+    background-color:#353535 ;
+    border-radius: 7px;
+    margin-left:5%;
+    margin-right:5%;
+}
+.last-box{
+    width:85%;
+    height:20vh;
+    background-color:#353535 ;
+    border-radius: 7px;
+    margin-top: 10vh;
+    margin-left:7%;
+    margin-right:15%;
+    margin-bottom:10vh 
+}
+
